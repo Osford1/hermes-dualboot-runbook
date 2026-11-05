@@ -1,0 +1,23 @@
+# Hermes payload / secrets — never commit
+.env
+auth.json
+*.env
+*.key
+state.db
+state.db-wal
+state.db-shm
+sessions/
+memories/
+hermes-port-payload.tar.gz
+SHA256SUMS.txt
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Screenshots with accidental personal data (add real ones deliberately)
+docs/screenshots/*.png
+docs/screenshots/*.jpg
